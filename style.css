@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;500;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #294266;
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/Ellipse\ 9.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-box {
+  position: relative;
+  width: 973px;
+  height: 666px;
+}
+.main-box .card-1 {
+  position: absolute;
+  top: 0;
+  left: 126px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 422px;
+  height: 407px;
+}
+
+.main-box .card-1 .content {
+  display: flex;
+  align-items: center;
+
+  width: 306px;
+  height: 407px;
+}
+
+.main-box .card-1 .content .eclipse-1 {
+  width: 98px;
+  height: 98px;
+  background-color: rgba(216, 230, 250, 0.7);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-box .card-1 .content .eclipse-1 .eclipse-2 {
+  width: 78px;
+  height: 78px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box .card-1 .content .info {
+  margin-left: 20px;
+  height: 100px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #131e30;
+}
+
+.main-box .card-1 .content .info p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.main-box .card-1 .content .info h1 {
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 900;
+}
+
+.btn-cust {
+  background: #294266;
+  border-radius: 10px;
+  padding: 19px 113px;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+.card-3 {
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  background: #fff;
+  border-radius: 20px;
+  width: 548px;
+  height: 149px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-3 .watches {
+  display: flex;
+  align-items: center;
+  margin-left: 45px;
+}
+.card-3 .watches h2 {
+  margin-left: 14.17px;
+  color: #131e30;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 35px;
+}
+.card-3 .avatars {
+  margin-right: 45px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.card-3 .avatars .girls {
+  width: 59px;
+  height: 59px;
+}
+.card-3 .avatars .girl-1 {
+  position: absolute;
+  right: 0;
+
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background-image: url(./assets/girl-1.svg);
+  background-position: center;
+}
+.card-3 .avatars .girl-2 {
+  position: absolute;
+  right: 40px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background-image: url(./assets/girl-2.svg);
+  background-position: center;
+}
+.card-3 .avatars .girl-3 {
+  position: absolute;
+  right: 80px;
+
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background-image: url(./assets/girl-3.svg);
+  background-position: center;
+}
+
+.card-2 {
+  background-color: #fff;
+  border-radius: 20px;
+  width: 342px;
+  height: 405px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 96px;
+  bottom: 165px;
+  right: 0;
+}
+
+.card-2 .eclipse-1 {
+  background: #ecf3fc;
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-2 .eclipse-1 .eclipse-2 {
+  width: 128px;
+  height: 128px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 10px;
+
+  background-image: url(./assets/girl-4.svg);
+}
+.card-2 .badge {
+  position: relative;
+  width: 50px;
+  height: 32px;
+  color: #fff;
+  background: #294266;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin: -20px auto 0 auto;
+  z-index: 3px;
+}
+
+.card-2 .name-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #131e30;
+}
+
+.card-2 .name-info h2 {
+  padding-bottom: 10px;
+
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.card-2 .name-info p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card-2 .follows {
+  color: #000;
+  font-size: 16px;
+  line-height: 20px;
+}
